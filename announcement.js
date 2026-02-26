@@ -33,6 +33,7 @@ function render(announcements) {
             </div>
         `;
     });
-
+    console.log("Render function called");
     console.log(announcements);
+
 }
