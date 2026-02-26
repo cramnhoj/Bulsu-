@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="signupcss.css">
+    <link rel="stylesheet" type="text/css" href="announcement.css">
+    <script src="announcement.js" defer></script>
+</head>
+
+<body>
+    <div class="header-holder">
+        <div class="header">
+            header</div>
+    </div>
+
+    <div class="forms-holder">
+        <fieldset class="forms-input">
+
+            <h1 class="header1">Create an Announcement</h1>
+            <div>
+                <label for="Title" class="Title">
+                    Title:
+                </label>
+                <input type="text" id="Title" class="nameTxtField">
+            </div>
+            <div>
+                <label for="Paragraph">
+                    Paragraph:
+                </label>
+                <input type="text" id="Paragraph" class="sectionTxtField">
+            </div>
+            <button id="takeQuiz" class="takeQuiz-button" onclick="validator()">Post</button>
+
+        </fieldset>
+
+        <div class="announcement">
+            <div id="announcement-container" class="announcement-container">
+                <h1 id="announcement-header">Announcement</h1>
+                <p id="announcement-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+                    voluptate.</p>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
